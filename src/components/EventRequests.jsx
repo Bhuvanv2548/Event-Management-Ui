@@ -48,7 +48,7 @@ const EventRequests = ({ searchQuery }) => {
   const totalPages = Math.ceil(filteredEvents.length / itemsPerPage);
 
   return (
-    <div>
+    <div className="overflow-x-auto">
       <table className="w-full text-left border-collapse border border-purple-500">
         <thead>
           <tr className="bg-purple-600 text-white" >

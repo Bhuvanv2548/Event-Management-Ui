@@ -41,7 +41,7 @@ const EventDetails = () => {
         </div>
         <h2 className="text-lg font-semibold mt-5">Assign Contractor</h2>
       <div className=" flex gap-4 mt-4">
-      <div className="bg-black p-5 rounded-lg shadow-lg w-1/2">
+      <div className="bg-black p-5 rounded-lg shadow-lg w-1/2 overflow-x-auto">
         <div className="grid grid-cols-2 gap-4">
           {[1, 2, 3, 4, 5].map((room) => (
               <div
@@ -55,7 +55,7 @@ const EventDetails = () => {
             ))}
        </div>
       </div>
-      <div className="w-1/2">
+      <div className="w-1/2 overflow-x-auto">
             <table className="w-full text-left border-collapse border border-purple-500">
               <thead>
                 <tr className="bg-purple text-white">
