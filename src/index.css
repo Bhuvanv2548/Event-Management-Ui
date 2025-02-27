@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+  }
+  .content {
+    padding: 10px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .sidebar {
+    width: 250px;
+  }
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
